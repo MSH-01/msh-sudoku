@@ -1,5 +1,7 @@
 **sudoku - studio msh**
 
+<img src="screenshot.png" width="300">
+
 #### brief
 i'm a long time sudoku enjoyer, but using the sudoku.com app has gotten to the point where it's actively ruining my enjoyment. they're pushing so much shitty slop that its becoming genuinely intrusive to the gameplay, random animations + scenes mid game when you complete a row / column / cell that freeze input for a second, random events / game modes extra shite that i just am not interested in. i voiced my opinion to the dev team, have opened many a support ticket yet they're unwilling to disable them or at least add a setting to turn them off, its frustrating, but i guess they built the thing for casual players.
 
@@ -17,13 +19,10 @@ i'm trying to make this new sudoku app feel more like chess.com - a place for ca
 - full setup customisation, light and dark
 - free!
 
-#### what it runs on
-- **ios** (`ios/`): native swiftui app and widgets, on testflight.
-- **android** (`android/`): native kotlin + jetpack compose, material 3, at parity with ios. signed apks go out as releases on the public [sudoku-android](https://github.com/MSH-01/sudoku-android) repo, which app stores like obtainium follow.
-- **web**: planned, in `docs/plans/web.md`.
-
 #### install
 download the apk from the [latest release](https://github.com/MSH-01/sudoku-android/releases/latest), or point an app store that follows github releases (like [obtainium](https://github.com/ImranR98/Obtainium)) at this repo for updates. the app plays as a guest; your games are kept on your phone and synced to your account.
+
+on iphone? it is on testflight, just message me for an invite. a web version is coming too.
 
 #### things i want to do still
 - [ ] tighten gameplay loop
